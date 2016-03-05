@@ -1,0 +1,14 @@
+{
+  "kind":"Pod",
+  "apiVersion":"v1",
+  "metadata":{
+    "name":"my-demo-pod",
+    "namespace":"default"
+  },
+  "spec":{
+    "containers":[{
+      "name":"container-demo",
+      "image":"ubuntu"
+    }]
+  }
+}
