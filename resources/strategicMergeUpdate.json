@@ -1,0 +1,10 @@
+{
+  "spec":{
+    "containers":[{
+      "name":"ubuntu-new",
+      "image":"ubuntu",
+      "patchStrategy":"merge",
+      "patchMergeKey":"name"
+    }]
+  }
+}

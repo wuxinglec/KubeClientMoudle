@@ -1,7 +1,5 @@
 package com.chy.kubeclient;
 
-import com.sun.corba.se.spi.activation.IIOP_CLEAR_TEXT;
-
 import java.util.Map;
 
 /**
@@ -27,7 +25,10 @@ public class OperatorV2 implements OperatorInterfaceV2{
     }
 
     public String createResource(ResourceType resourceType, String jsonStr) {
-        return createResource("default", resourceType, jsonStr);
+        if (resourceType != ResourceType.NAMESPACES)
+            return createResource("default", resourceType, jsonStr);
+        else
+            return createResource(null, resourceType, jsonStr);
     }
 
     public String getResourceList(String namespace, ResourceType resourceType) {
@@ -38,7 +39,10 @@ public class OperatorV2 implements OperatorInterfaceV2{
     }
 
     public String getResourceList(ResourceType resourceType) {
-        return getResourceList("default", resourceType);
+        if (resourceType != ResourceType.NAMESPACES)
+            return getResourceList("default", resourceType);
+        else
+            return getResourceList(null, resourceType);
     }
 
     public String getResourceInfo(String namespace, ResourceType resourceType, String resourceName) {
@@ -50,7 +54,10 @@ public class OperatorV2 implements OperatorInterfaceV2{
     }
 
     public String getResourceInfo(ResourceType resourceType, String resourceName) {
-        return getResourceInfo("default", resourceType, resourceName);
+        if (resourceType != ResourceType.NAMESPACES)
+            return getResourceInfo("default", resourceType, resourceName);
+        else
+            return getResourceInfo(null, resourceType, resourceName);
     }
 
     public String deleteResource(String namespace, ResourceType resourceType, String resourceName) {
@@ -76,6 +83,38 @@ public class OperatorV2 implements OperatorInterfaceV2{
 
     public String getPodLog(String podName, Map<String, String> options) {
         return getPodLog("default", podName, options);
+    }
+
+    public String updateResourceWithMergePatch(String namespace, ResourceType resourceType, String resourceName, String jsonStr) {
+        Params params = new Params();
+        params.setNamespace(namespace);
+        params.setResourceType(resourceType);
+        params.setName(resourceName);
+        params.setJson(jsonStr);
+        return _client.updateWithMediaType(params, "application/merge-patch+json");
+    }
+
+    public String updateResourceWithMergePatch(ResourceType resourceType, String resourceName, String jsonStr) {
+        if(resourceType != ResourceType.NAMESPACES)
+            return updateResourceWithMergePatch("default", resourceType, resourceName, jsonStr);
+        else
+            return updateResourceWithMergePatch(null, resourceType, resourceName, jsonStr);
+    }
+
+    public String updateResourceWithStrategicMergePatch(String namespace, ResourceType resourceType, String resourceName, String jsonStr) {
+        Params params = new Params();
+        params.setNamespace(namespace);
+        params.setResourceType(resourceType);
+        params.setName(resourceName);
+        params.setJson(jsonStr);
+        return _client.updateWithMediaType(params, "application/strategic-merge-patch+json");
+    }
+
+    public String updateResourceWithStrategicMergePatch(ResourceType resourceType, String resourceName, String jsonStr) {
+        if(resourceType != ResourceType.NAMESPACES)
+            return updateResourceWithStrategicMergePatch("default", resourceType, resourceName, jsonStr);
+        else
+            return updateResourceWithStrategicMergePatch(null, resourceType, resourceName, jsonStr);
     }
 
     public void close() {

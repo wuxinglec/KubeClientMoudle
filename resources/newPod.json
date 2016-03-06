@@ -2,12 +2,12 @@
   "kind":"Pod",
   "apiVersion":"v1",
   "metadata":{
-    "name":"my-demo-pod",
-    "namespace":"default"
+    "namespace":"ns-test",
+    "name":"my-demo-pod"
   },
   "spec":{
     "containers":[{
-      "name":"container-demo",
+      "name":"ubuntu-demo",
       "image":"ubuntu"
     }]
   }
