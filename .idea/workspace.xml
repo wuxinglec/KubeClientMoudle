@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea72232f-4201-46c5-98a0-1258ec535ebb" name="Default" comment="">
+    <list default="true" id="ea72232f-4201-46c5-98a0-1258ec535ebb" name="Default" comment="add delete function">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterfaceV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorV2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/Operator.class" afterPath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/Operator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/OperatorInterface.class" afterPath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/OperatorInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/Params.class" afterPath="$PROJECT_DIR$/target/classes/com/chy/kubeclient/Params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/chy/kubeclient/test/Test.class" afterPath="$PROJECT_DIR$/target/test-classes/com/chy/kubeclient/test/Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java" afterPath="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java" />
     </list>
     <ignored path="KubeClientMoudle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +36,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OperatorInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+              <folding>
+                <element signature="e#4659#4660#0" expanded="true" />
+                <element signature="e#4690#4691#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorInterfaceV2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterfaceV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorV2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6050157">
+              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#2711#2712#0" expanded="true" />
+                <element signature="e#2747#2748#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/ClientInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Params.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="74.567566">
+              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#482#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8546713">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -61,16 +145,18 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/ResourceType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/JerseyVClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/ClientInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/JerseyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Utils.java" />
         <option value="$PROJECT_DIR$/resources/newPod.json" />
-        <option value="$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterfaceV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorV2.java" />
       </list>
     </option>
   </component>
@@ -118,6 +204,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,6 +235,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,7 +296,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,7 +717,8 @@
       <workItem from="1457160356778" duration="6782000" />
       <workItem from="1457176558089" duration="3048000" />
       <workItem from="1457179969819" duration="91000" />
-      <workItem from="1457180076401" duration="1251000" />
+      <workItem from="1457180076401" duration="1537000" />
+      <workItem from="1457228879741" duration="6208000" />
     </task>
     <task id="LOCAL-00001" summary="the first commit">
       <created>1457181046114</created>
@@ -627,38 +726,44 @@
       <option name="project" value="LOCAL" />
       <updated>1457181046114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add delete function">
+      <created>1457181342664</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457181342664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16252000" />
+    <option name="totallyTimeSpent" value="22746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26396495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -674,7 +779,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="the first commit" />
+    <MESSAGE value="add delete function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add delete function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -699,20 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/ClientInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54152447">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/newPod.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51756006">
@@ -724,27 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8719723">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8719723">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/JerseyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33217993">
-          <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28373703">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -760,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,11 +845,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/JerseyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0692043">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="e#4657#4658#0" expanded="true" />
+            <element signature="e#4690#4691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chy/kubeclient/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#482#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/ClientInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Params.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="74.567566">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8546713">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+          <folding>
+            <element signature="e#4659#4660#0" expanded="true" />
+            <element signature="e#4690#4691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorInterfaceV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chy/kubeclient/OperatorV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6050157">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#2711#2712#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

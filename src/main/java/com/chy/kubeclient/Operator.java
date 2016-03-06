@@ -1,5 +1,7 @@
 package com.chy.kubeclient;
 
+import java.util.Map;
+
 /**
  * Created by chyzh on 2016/3/5.
  */
@@ -102,5 +104,49 @@ public class Operator implements OperatorInterface {
         return _client.get(params);
     }
 
+    public String deleteNS(String nsName) {
+        Params params = new Params();
+        params.setResourceType(ResourceType.NAMESPACES);
+        params.setName(nsName);
+        return _client.delete(params);
+    }
+
+    public String deletePodInNS(String ns, String podName) {
+        Params params = new Params();
+        params.setNamespace(ns);
+        params.setResourceType(ResourceType.PODS);
+        params.setName(podName);
+        return _client.delete(params);
+    }
+
+    public String deleteRCInNS(String ns, String rcName) {
+        Params params = new Params();
+        params.setNamespace(ns);
+        params.setResourceType(ResourceType.REPLICATIONCONTROLLERS);
+        params.setName(rcName);
+        return _client.delete(params);
+    }
+
+    public String deleteSrvInNS(String ns, String srvName) {
+        Params params = new Params();
+        params.setNamespace(ns);
+        params.setResourceType(ResourceType.SERVICES);
+        params.setName(srvName);
+        return _client.delete(params);
+    }
+
+    public String getLogByPodNameInNS(String ns, String podName, Map<String, String> options) {
+        Params params =new Params();
+        params.setNamespace(ns);
+        params.setResourceType(ResourceType.PODS);
+        params.setName(podName);
+        params.setSubPath("log");
+        params.setOptions(options);
+        return _client.get(params);
+    }
+
+    public void close() {
+        _client.close();
+    }
 
 }

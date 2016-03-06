@@ -16,6 +16,7 @@ public class Params {
 
     private String namespace = null;
     private String name = null;
+    private Map<String, String> options = null;
     private Map<String, String> fields = null;
     private Map<String, String> lables = null;
     private Map<String, String> notLabels = null;
@@ -40,6 +41,13 @@ public class Params {
 
         if(null != subPath)
             result.append("/").append(subPath);
+        //add for options
+        if(null != options) {
+            result.append("?");
+            for(String key : options.keySet()) {
+                result.append(key + "=" + options.get(key) + "&&");
+            }
+        }
 
         if(null != lables && !lables.isEmpty()
                 || null != notLabels && !notLabels.isEmpty()
@@ -155,6 +163,10 @@ public class Params {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void setOptions(Map<String, String> options){this.options = options;}
+
+    public Map<String, String> getOptions(){return options;}
 
     public Map<String, String> getFields() {
         return fields;
