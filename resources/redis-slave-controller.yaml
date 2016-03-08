@@ -21,4 +21,5 @@ spec:
                         value: env
                   ports:
                       - containerPort: 6379
-              image: kubeguide/redis-master
+
+

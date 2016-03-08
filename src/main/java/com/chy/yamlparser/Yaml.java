@@ -112,11 +112,11 @@ public class Yaml {
     private int calEnd(ArrayList<String> strings, int start){
         int end = strings.size() - 1;
         count = 0;
-        int countTableStart = countSubStr(strings.get(start), "    ");
+        int countTableStart = countSubStr(strings.get(start), " ");
         start ++;
         while(start <= end){
             count = 0;
-            int tmp = countSubStr(strings.get(start), "    ");
+            int tmp = countSubStr(strings.get(start), " ");
             if(tmp < countTableStart)
                 break;
             else if (tmp == countTableStart){
@@ -152,19 +152,18 @@ public class Yaml {
     }
 
     private int next(ArrayList<String> strings, int start, int end) {
-        int countTable = countSubStr(strings.get(start), "    ");
+        count = 0;
+        int countTable = countSubStr(strings.get(start), " ");
         start ++;
         while(start <= end) {
-            if(countSubStr(strings.get(start), "    ") == countTable
-                    && strings.get(start).trim().substring(0, 1) == "-"){
+            count = 0;
+            if(countSubStr(strings.get(start), " ") == countTable
+                    && "-".equals(strings.get(start).trim().substring(0, 1))){
                 return start;
             }
+            start ++;
         }
         return -1;
     }
 
-    public static void main(String[] args) {
-        Yaml y = new Yaml("");
-        System.out.println(y.type("containers:", "- name: master"));
-    }
 }

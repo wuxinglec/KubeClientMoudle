@@ -5,7 +5,7 @@ package com.chy.yamlparser;
  */
 public class TestYamlParser {
     public static void main(String[] args) {
-        Yaml yaml = new Yaml("resources/demo.yaml");
+        Yaml yaml = new Yaml("resources/redis-master-controller.yaml");
         String result = yaml.getJson();
         System.out.println(result);
     }
